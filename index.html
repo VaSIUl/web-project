@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Круті фото</title>
+    <title>Figma Land</title>
     <link rel="shortcut icon" href="img/yooo.jpg" type="image/x-icon" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
@@ -12,9 +12,35 @@
     ></script>
   </head>
   <body>
-    <h1>Крутий тіп</h1>
-    <img src="img/yooo.jpg" alt="Аніме пацан" />
-    <h2>Дистрибутивний закон по приколу</h2>
-    <img src="img/distributive.png" alt="дистибутивний закон" />
+    <header class="header">
+      <div class="header__list-block">
+        <ul class="header__list">
+          <li class="header__list-item">Home</li>
+          <li class="header__list-item">Product</li>
+          <li class="header__list-item">Pricing</li>
+          <li class="header__list-item">About</li>
+          <li class="header__list-item">Contact</li>
+        </ul>
+      </div>
+      <img src="#" alt="Figma Land" class="header__logo" />
+      <div class="header__icons">
+        <img src="#" alt="Twitter" class="header__icons-icon" />
+        <img src="#" alt="Facebook" class="header__icons-icon" />
+        <img src="#" alt="LinckedIn" class="header__icons-icon" />
+      </div>
+    </header>
+    <main class="main">
+      <div class="familiarization">
+        <h1 class="familiarization__title">
+          The best products start with Figma
+        </h1>
+        <p class="familiarization__text">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <button class="familiarization__btn btn"></button>
+        <!--btn - загальні стилі, бо є однакові кнопки-->
+      </div>
+    </main>
   </body>
 </html>
