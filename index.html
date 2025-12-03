@@ -10,37 +10,160 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
+    <style>
+      body{
+        background-color: aqua;
+      }
+    </style>
   </head>
   <body>
     <header class="header">
-      <div class="header__list-block">
-        <ul class="header__list">
-          <li class="header__list-item">Home</li>
-          <li class="header__list-item">Product</li>
-          <li class="header__list-item">Pricing</li>
-          <li class="header__list-item">About</li>
-          <li class="header__list-item">Contact</li>
+      <nav class="header__nav">
+        <ul class="header__nav--list">
+          <li class="header__nav--item">
+            <a href="#">Home</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="#">Product</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="#">Pricing</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="#">About</a>
+          </li>
+          <li class="header__nav--item">
+            <a href="#">Contact</a>
+          </li>
         </ul>
-      </div>
-      <img src="#" alt="Figma Land" class="header__logo" />
+      </nav>
+      <img src="#" alt="Figma Land" class="header__logo">
       <div class="header__icons">
-        <img src="#" alt="Twitter" class="header__icons-icon" />
-        <img src="#" alt="Facebook" class="header__icons-icon" />
-        <img src="#" alt="LinckedIn" class="header__icons-icon" />
+        <ul class="header__icons--list">
+          <li class="header__icons--icon">
+            <a href="#"><img src="img/twitter_icon.svg" alt="Twitter"></a>
+          </li>
+          <li class="header__icons--icon">
+            <a href="#"><img src="img/facebook_icon.svg" alt="Facebook"></a>
+          </li>
+          <li class="header__icons--icon">
+            <a href="#"><img src="img/linkedin_icon.svg" alt="LinkedIn"></a>
+          </li>
+        </ul>
       </div>
     </header>
     <main class="main">
-      <div class="familiarization">
-        <h1 class="familiarization__title">
-          The best products start with Figma
-        </h1>
-        <p class="familiarization__text">
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </p>
-        <button class="familiarization__btn btn"></button>
-        <!--btn - загальні стилі, бо є однакові кнопки-->
-      </div>
+      <section class="acquaintance">
+        <h1 class="acquaintance__title">The best products start with Figma</h1>
+        <p class="acquaintance__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <a href="#" class="acquaintance__btn link-btn">Try For Free</a>
+        <!--link-btn - загальні стилі кнопок для лінків-->
+      </section>
+      <section class="features">
+        <h2 class="features__title">Features</h2>
+        <p class="features__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="features__cards">
+          <div class="features__cards--card">
+            <img src="img/features_icon_1.svg" alt="Figures" class="features__cards--image">
+            <p class="features__cards--title">OpenType features Variable fonts</p>
+            <p class="features__cards--text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+          <div class="features__cards--card">
+            <img src="img/features_icon_2.svg" alt="Pencil" class="features__cards--image">
+            <p class="features__cards--title">Design with real data</p>
+            <p class="features__cards--text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+          <div class="features__cards--card">
+            <img src="img/features_icon_3.svg" alt="Brush" class="features__cards--image">
+            <p class="features__cards--title">Fastest way to take action</p>
+            <p class="features__cards--text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <div class="video__wrapper">
+          <img src="img/video_section.jpg" alt="Video" class="video__image">
+        </div>
+      </section>
+      <section class="organize">
+        <div class="organize__content">
+          <h2 class="organize__content--title">Fastest way to organize</h2>
+          <p class="organize__content--text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+          <a href="#" class="organize__content--btn link-btn">Try for free</a>
+        </div>
+        <div class="organize__image">
+          <img src="img/organize__img.jpg" alt="" class="organize__img">
+        </div>
+      </section>
+      <section class="prototyping">
+        <div class="prototyping__image">
+          <img src="img/prototyping_img.svg" alt="" class="prototyping__img">
+        </div>
+        <div class="prototyping__content">
+          <p class="prototyping__subtopic">At your fingertips</p>
+          <h2 class="prototyping__title">Lightning fast prototyping</h2>
+          <p class="prototyping__subtitle">Subscribe to our Newsletter</p>
+          <p class="pototyping__text">Available exclusivery on Figmaland</p>
+          <div class="prototyping__form">
+            <input type="email" placeholder="Your Email">
+            <a href="#" class="prototyping__btn link-btn">Subscribe</a>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <h2 class="partners__title">Partners</h2>
+        <p class="partners__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="partners__block">
+          <div class="partners__block--upper">
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_google.svg" alt="Google" class="partners__card--img">
+            </div>
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_amazon.svg" alt="Amazon" class="partners__card--img">
+            </div>
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_microsoft.svg" alt="Microsoft" class="partners__card--img">
+            </div>
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_uber.svg" alt="Uber" class="partners__card--img">
+            </div>
+          </div>
+          <div class="partners__block--lower">
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_dropbox.svg" alt="Dropbox" class="partners__card--img">
+            </div>
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_google.svg" alt="Google" class="partners__card--img">
+            </div>
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_uber.svg" alt="Uber" class="partners__card--img">
+            </div>
+            <div class="partners__card">
+              <p class="partners__card--title">Client Name</p>
+              <img src="img/partners_amazon.svg" alt="Amazon" class="partners__card--img">
+            </div>
+          </div>
+        </div>
+        <a href="#" class="partners__btn link-btn">Try For Free</a>
+      </section>
+      <section class="testimonials">
+        <h1 class="testimonials__title">Testimonials</h1>
+        <img src="img/testimonials_img.svg" alt="IBM" class="testimonials__img">
+        <p class="testimonials__text">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+        <div class="testimonials__biography">
+          <img src="img/testimonials_biography_img.png" alt="Photo" class="testimonials__biography--img">
+          <p class="testimonials__biography--title">Organize across</p>
+          <p class="testimonials__biography--text">Ui designer</p>
+        </div>
+        <a href="#" class="testimonials__btn link-btn">More Testimonials</a>
+      </section>
     </main>
   </body>
 </html>
