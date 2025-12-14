@@ -5,3 +5,17 @@
     padding: 1rem 2rem;
     color: var(--color-white);
 }
+
+ol, ul {
+    list-style: none;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-black-second);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white)
+}

@@ -3,8 +3,12 @@
 
 @import url(features.css);
 @import url(header.css);
+@import url(acquaintance.css);
 @import url(organize.css);
 @import url(partners.css);
 @import url(prototyping.css);
+@import url(pricing.css);
 @import url(testimonials.css);
 @import url(video.css);
+@import url(contact_us.css);
+@import url(footer.css);
