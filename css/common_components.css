@@ -1,9 +1,17 @@
-.btn {
+.link-btn {
     background-color: var(--primary-blue);
     border: none;
     border-radius: 2rem;
-    padding: 1rem 2rem;
+    padding: 0.7rem 3rem;
     color: var(--color-white);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.link-btn:hover {
+    color: var(--primary-blue);
+    background-color: var(--color-white);
+    border: 1px solid var(--primary-blue);
 }
 
 ol, ul {
@@ -18,4 +26,16 @@ body {
 a {
     text-decoration: none;
     color: var(--color-white)
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
 }

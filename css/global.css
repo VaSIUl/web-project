@@ -30,5 +30,7 @@ img {
     --color-black-second: #374754;
     --primary-blue: #2091F9;
     --input-color: #18171D;
+    --border-btn: #F4F4F4;
+    --input-background-color: #E8E8E8;
     --fonts-primary: "Rubik", sans-serif;
 }

@@ -1,0 +1,54 @@
+.acquaintance {
+    position: relative;
+    min-height: 100vh;
+    padding: 8rem 1.5rem 6rem;
+    text-align: center;
+    background-image: url('../img/background_header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+}
+
+.acquaintance__title {
+    margin-bottom: 1.5rem;
+    font-size: 4.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-white);
+}
+
+.acquaintance__text {
+    max-width: 32rem;
+    margin: 0 auto 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--color-white);
+    padding: 3rem 0;
+}
+
+.acquaintance__btn {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .acquaintance__title {
+        font-size: 3.5rem;
+    }
+    
+    .acquaintance__text {
+        font-size: 1rem;
+        padding: 2rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .acquaintance__title {
+        font-size: 2.5rem;
+    }
+    
+    .acquaintance__text {
+        font-size: 0.9rem;
+        padding: 1.5rem 0;
+    }
+}
