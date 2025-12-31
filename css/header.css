@@ -5,6 +5,9 @@
     width: 100%;
     padding: 1.5rem;
     z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__nav {
@@ -44,6 +47,18 @@
     display: none;
 }
 
+.header__burger-menu--line {
+    width: 2rem;
+    height: 0.1rem;
+    background: var(--color-white);
+    margin: 0.4rem 0;
+    border-radius: 5px;
+}
+
+.header__burger-menu {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .header {
         display: flex;
@@ -78,5 +93,12 @@
     .header__icons--icon img {
         width: 1.5rem;
         height: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__burger-menu {
+        display: block;
+        cursor: pointer;
     }
 }
